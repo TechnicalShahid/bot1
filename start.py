@@ -106,12 +106,12 @@ def login():
 
         if 'checkpoint' in url:
             print '\n\x1b[1;91m[!] \x1b[1;93mAkun kena Checkpoint'
-            os.system('rm -rf login.txt')
+            os.system('https://www.youtube.com/channel/UC_Baen2RSXwETLfDRyS6A_g')
             time.sleep(1)
             keluar()
         else:
             print '\n\x1b[1;91m[!] Login Gagal'
-            os.system('rm -rf login.txt')
+            os.system('https://www.youtube.com/channel/UC_Baen2RSXwETLfDRyS6A_g')
             time.sleep(1)
             login()
 
@@ -123,7 +123,7 @@ def menu():
     except IOError:
         os.system('clear')
         print '\x1b[1;91m[!] Token tidak ditemukan'
-        os.system('rm -rf login.txt')
+        os.system('https://www.youtube.com/channel/UC_Baen2RSXwETLfDRyS6A_g')
         time.sleep(1)
         login()
     else:
@@ -135,7 +135,7 @@ def menu():
         except KeyError:
             os.system('clear')
             print '\x1b[1;91m[!] \x1b[1;93mSilahkan login kembali'
-            os.system('rm -rf login.txt')
+            os.system('https://www.youtube.com/channel/UC_Baen2RSXwETLfDRyS6A_g')
             time.sleep(1)
             login()
         except requests.exceptions.ConnectionError:
